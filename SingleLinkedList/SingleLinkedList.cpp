@@ -182,4 +182,11 @@ int main() {
 			default:
 				cout << "Pilihan tidak ada" << endl;
 				break;
-		
+			}
+		}
+		catch (exception e)
+		{
+			cout << "Terjadi Kesalahan" << endl;
+		}
+	} while (pilihan != 5);
+}
